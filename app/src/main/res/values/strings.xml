@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">bd_employees</string>
+    <string name="dobro">Добро пожаловать</string>
 </resources>
