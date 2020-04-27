@@ -17,9 +17,6 @@ public class MenuActivity extends AppCompatActivity {
             = item -> {
 
         switch (item.getItemId()) {
-            /*case R.id.navigation_profile:
-                selectedFragment = new ProfileFragment();
-                break;*/
             case R.id.navigation_list:
                 selectedFragment = new ListFragment();
                 break;

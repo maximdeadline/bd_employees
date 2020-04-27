@@ -3,13 +3,16 @@
     package="com.example.bd_employees">
 
     <application
+        android:name=".WorkersApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fragments.AnalyticsFragment"></activity>
+        <activity android:name=".WorkerAdd"></activity>
+        <activity android:name=".WorkerProfileActivity" />
+        <activity android:name=".fragments.AnalyticsFragment" />
         <activity android:name=".fragments.ListFragment" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".MainActivity">
