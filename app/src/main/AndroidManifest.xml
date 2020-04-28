@@ -10,7 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WorkerEdit"></activity>
+        <activity android:name=".analytics.AgeAnalyticsActivity"></activity>
+        <activity android:name=".analytics.SalaryAnalyticsActivity" />
+        <activity android:name=".analytics.EducationAnalyticsActivity" />
+        <activity android:name=".WorkerEdit" />
         <activity android:name=".WorkerAdd" />
         <activity android:name=".WorkerProfileActivity" />
         <activity android:name=".fragments.AnalyticsFragment" />
