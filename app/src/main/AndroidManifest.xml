@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WorkerAdd"></activity>
+        <activity android:name=".WorkerEdit"></activity>
+        <activity android:name=".WorkerAdd" />
         <activity android:name=".WorkerProfileActivity" />
         <activity android:name=".fragments.AnalyticsFragment" />
         <activity android:name=".fragments.ListFragment" />
